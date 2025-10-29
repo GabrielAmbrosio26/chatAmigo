@@ -1,0 +1,27 @@
+div:first-child {
+  @apply h-screen flex flex-col
+}
+
+header {
+  @apply bg-gray-200 p-4 flex items-center justify-end shrink-0
+}
+
+button {
+  @apply bg-black rounded-md text-white px-4 py-2
+}
+
+.mensaje {
+  @apply flex gap-x-4 p-4 shrink-0 border-t border-gray-200
+}
+
+input {
+  @apply w-full rounded-md border outline-none border-gray-200 px-2 py-2
+}
+
+.enviar {
+  @apply cursor-pointer bg-black px-4 py-2 rounded-md text-white
+}
+
+.conversacion {
+  @apply flex-1 p-4 overflow-y-auto flex flex-col gap-4
+}

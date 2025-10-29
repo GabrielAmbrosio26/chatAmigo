@@ -1,0 +1,8 @@
+<div class="flex"
+[class.flex-row-reverse]="myMessage()">
+  <div class="avatar" [ngClass]="myMessage() ? 'bg-blue-200': 'bg-gray-200'">{{message().user.charAt(0).toUpperCase()}}</div>
+  <div class="texto"  [ngClass]="myMessage() ? 'bg-blue-200': 'bg-gray-200'">
+    <p>{{message().content}}</p>
+  </div>
+</div>
+

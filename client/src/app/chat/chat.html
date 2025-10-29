@@ -1,0 +1,22 @@
+<div>
+  <header>
+    <button>
+      logout
+    </button>
+  </header>
+
+  <div class="conversacion">
+      @for (message of messages(); track message) {
+        <app-message [message]="message"
+        [myMessage]="username() === message.user"></app-message>
+      }
+  </div>
+
+  <div class="mensaje">
+    <input type="text"
+      [formControl]="messageControl"
+    >
+    <button class="enviar" (click)="sendMessage()">Enviar</button>
+  </div>
+</div>
+

@@ -1,0 +1,24 @@
+.flex {
+  @apply  flex-col justify-center min-h-screen items-center
+};
+
+h1 {
+  @apply text-2xl font-bold mb-4
+};
+
+p {
+  @apply text-sm
+};
+
+div {
+  @apply mb-4
+};
+
+input {
+  @apply border w-full border-black outline-none rounded-md px-2 py-1 text-inherit
+};
+
+button {
+  @apply bg-black w-full px-4 py-2 text-white rounded-md cursor-pointer active:bg-black/80
+}
+

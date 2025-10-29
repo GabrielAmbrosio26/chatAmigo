@@ -1,0 +1,11 @@
+.flex {
+  @apply items-center gap-4
+}
+
+.avatar {
+  @apply rounded-full font-semibold text-xl w-10 h-10 flex justify-center items-center
+}
+
+.texto {
+  @apply min-h-10 rounded-md px-4 py-2 
+}
