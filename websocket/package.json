@@ -1,12 +1,19 @@
 {
   "name": "websocket",
+  "version": "0.1.0",
+  "description": "Servidor WebSocket para chatAmigo (Bun + TypeScript)",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "license": "UNLICENSED"
 }
