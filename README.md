@@ -102,9 +102,3 @@ Si quieres colaborar, abre un issue o envía un pull request. Para cambios local
 
 - Gabriel Ambrosio — github.com/GabrielAmbrosio26
 
----
-
-Si quieres, puedo:
-- añadir screenshots o una demo grabada para el README,
-- agregar un script `start` en `websocket/package.json` (lo hago ahora si quieres),
-- o configurar CI/CD básico (GitHub Actions) para builds del cliente.
